@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33516.290
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{E49EA462-0E1C-49B0-8409-00E1E9F5AEE6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{58104ECD-7F47-4890-ADCA-A3C0B81094C0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Flow.Launcher.Plugin.Bitly", "src\Flow.Launcher.Plugin.Bitly\Flow.Launcher.Plugin.Bitly.csproj", "{ABA6D796-505E-4C01-AE5F-827849A929E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Flow.Launcher.Plugin.Bitly.Tests", "test\Flow.Launcher.Plugin.Bitly.Tests\Flow.Launcher.Plugin.Bitly.Tests.csproj", "{8867C32F-B870-48F0-89A7-C6CB3F8F4C42}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ABA6D796-505E-4C01-AE5F-827849A929E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABA6D796-505E-4C01-AE5F-827849A929E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABA6D796-505E-4C01-AE5F-827849A929E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABA6D796-505E-4C01-AE5F-827849A929E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8867C32F-B870-48F0-89A7-C6CB3F8F4C42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8867C32F-B870-48F0-89A7-C6CB3F8F4C42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8867C32F-B870-48F0-89A7-C6CB3F8F4C42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8867C32F-B870-48F0-89A7-C6CB3F8F4C42}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{ABA6D796-505E-4C01-AE5F-827849A929E8} = {E49EA462-0E1C-49B0-8409-00E1E9F5AEE6}
+		{8867C32F-B870-48F0-89A7-C6CB3F8F4C42} = {58104ECD-7F47-4890-ADCA-A3C0B81094C0}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FC118621-0451-4800-B492-C88D48577652}
+	EndGlobalSection
+EndGlobal

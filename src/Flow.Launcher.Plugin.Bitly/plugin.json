@@ -1,0 +1,12 @@
+﻿{
+  "ID": "C68D8B6ACC374D7997C0DD6731F7F8FC",
+  "ActionKeyword": "bty",
+  "Name": "Flow.Launcher.Plugin.Bitly",
+  "Description": "Bit.ly for Flow Launcher",
+  "Author": "TotPe.Ro (@totpero)",
+  "Version": "1.0.0",
+  "Language": "csharp",
+  "Website": "https://github.com/sibies/Flow.Plugin.Bitly",
+  "IcoPath": "Images\\bitly.png",
+  "ExecuteFileName": "Flow.Launcher.Plugin.Bitly.dll"
+}
