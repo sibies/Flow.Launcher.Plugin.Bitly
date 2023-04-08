@@ -6,7 +6,7 @@
   "Author": "TotPe.Ro (@totpero)",
   "Version": "1.0.0",
   "Language": "csharp",
-  "Website": "https://github.com/sibies/Flow.Plugin.Bitly",
+  "Website": "https://github.com/sibies/Flow.Launcher.Plugin.Bitly",
   "IcoPath": "Images\\bitly.png",
   "ExecuteFileName": "Flow.Launcher.Plugin.Bitly.dll"
 }
