@@ -1,4 +1,4 @@
-using Flow.Launcher.Plugin.Bitly.Core;
+using Bitly.Net.v4;
 
 namespace Flow.Launcher.Plugin.Bitly.Tests
 {

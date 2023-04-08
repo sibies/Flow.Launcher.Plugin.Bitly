@@ -1,6 +1,6 @@
 ﻿using System.Windows;
 using System.Windows.Controls;
-using Flow.Launcher.Plugin.Bitly.Core;
+using Bitly.Net.v4;
 
 namespace Flow.Launcher.Plugin.Bitly
 {
@@ -14,7 +14,7 @@ namespace Flow.Launcher.Plugin.Bitly
             //https://support.bitly.com/hc/en-us/articles/231140388-How-do-I-find-my-API-key-
         }
 
-        const string BitlyToken = "b0bf1fc066b12544dec7e55510eafabe995b8455";
+        const string Token = "b0bf1fc066b12544dec7e55510eafabe995b8455";
 
         private PluginInitContext _context;
         private BitlyClient _client;
@@ -23,7 +23,7 @@ namespace Flow.Launcher.Plugin.Bitly
         public Task InitAsync(PluginInitContext context)
         {
             _context = context;
-            _client = new BitlyClient(BitlyToken);
+            _client = new BitlyClient(Token);
             return Task.CompletedTask;
         }
 
