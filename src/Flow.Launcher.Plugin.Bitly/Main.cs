@@ -51,8 +51,8 @@ namespace Flow.Launcher.Plugin.Bitly
                                 bool ret;
                                 try
                                 {
-                                    Clipboard.SetText(response.Message);
-                                    //Process.Start(shorten.Results.NodeKeyVal.ShortUrl);
+                                    _context.API.CopyToClipboard(response.Message);
+                                    //_context.API.Start(shorten.Results.NodeKeyVal.ShortUrl);
                                     ret = true;
                                 }
                                 catch (Exception)
