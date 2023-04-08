@@ -10,9 +10,3 @@ public class BitlyErrorResponse : BitlyBaseResponse
     public override bool Success => false;
     public override string Message => message;
 }
-
-public class BitlyResponseError
-{
-    public string field { get; set; }
-    public string error_code { get; set; }
-}
